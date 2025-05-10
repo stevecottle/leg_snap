@@ -1,0 +1,18 @@
+# --- Core ---
+flask==3.0.2             # Web framework
+flask-cors==4.0.0        # Enable CORS for React-Flask communication
+
+# --- PyTorch (choose ONE based on your system) ---
+# Option 1: CPU-only (simpler)
+torch==2.2.2
+torchvision==0.17.2
+
+# --- Image Processing ---
+pillow==10.2.0           # Image handling
+numpy==1.26.4            # Numerical operations
+
+# --- Database ---
+psycopg2-binary==2.9.9   # PostgreSQL connector
+
+# --- Development Tools ---
+python-dotenv==1.0.1     # Environment variables
